@@ -3,29 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/sosse_icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sauced</title>
   </head>
   <body>
-    <header class="md:flex">
-      <div class="flex">
-        <h1>Sauced</h1>
-        <img src="./public/sosse_no_background.png" alt="logo" class="w-20">
+    <header class="w-full p-5 md:flex">
+      <div class="flex items-center gap-2 justify-center p-2 md:p-10">
+        <h1 class="font-bold text-3xl md:text-6xl">Sauced</h1>
+        <img src="/sosse_no_background.png" alt="logo" class="w-10 md:w-30">
       </div>
-      <nav class="flex">
-        <button>Menu</button>
-        <button>Booking & Schedule</button>
-        <button>About</button>
+      <nav class="w-full flex items-center justify-center gap-5 md:text-3xl">
+        <button class="overflow-hidden break-words text-ellipsis bg-orange-200 px-1 py-2 rounded-sm font-bold">Menu</button>
+        <button class="overflow-hidden break-words text-ellipsis bg-orange-200 px-1 py-2 rounded-sm font-bold">Booking</button>
+        <button class="overflow-hidden break-words text-ellipsis bg-orange-200 px-1 py-2 rounded-sm font-bold">About</button>
       </nav>
     </header>
 
     <main>
-      <div id="app"></div>
+      <div id="app">
+        <!-- <div class="block md:flex p-6">
+          <div class="block md:flex md:p-10 flex-col justify-around">
+            <h3>The hottest place around</h3>
+            <p>A unique experience for the lovers of spicy food and those who are curious about new sensations, book a table now and don't miss out.</p>
+            <button class="px-1 py-2 rounded-sm max-w-fit bg-amber-400">Book now</button>
+          </div>
+          <img src="/pexels-restaurant-min.jpg" alt="restaurant image" class="md:w-90">
+        </div> -->
+      </div>
     </main>
 
-    <footer>
-      <p>Developed by <a href="#" target="_blank">Julio</a></p>
+    <footer class="w-full text-center">
+      <p>Developed by <a href="#" target="_blank" class="font-bold cursor">Julio</a></p>
     </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
