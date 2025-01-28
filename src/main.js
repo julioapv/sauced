@@ -40,4 +40,3 @@ appDiv.innerHTML = ""
 }
 
 appDiv.innerHTML = mainPageHTML;
-// appDiv.innerHTML = menuPageHTML;
