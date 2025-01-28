@@ -4,9 +4,6 @@ import { bookingPageComponent } from './bookingPageComponent.js';
 import { aboutPageComponent } from './aboutPageComponent.js';
 
 const appDiv = document.querySelector("#app");
-const menuBtn = document.querySelector("#menu-button");
-const bookingBtn = document.querySelector("#booking-button");
-const aboutBtn = document.querySelector("#about-button");
 const linksContainer = document.querySelector("#links-container")
 
 const mainPageHTML = createMainPageComponent();
@@ -17,6 +14,10 @@ const aboutPageHTML = aboutPageComponent();
 
 linksContainer.addEventListener("click", (event) => {
     switch(event.target.id) {
+        case "home-button":
+        clearScrean()
+        appDiv.innerHTML = mainPageHTML;    
+        break;
         case "menu-button":
             clearScrean()
             appDiv.innerHTML = menuPageHTML;
@@ -38,5 +39,5 @@ function clearScrean() {
 appDiv.innerHTML = ""
 }
 
-// appDiv.innerHTML = mainPageHTML;
-appDiv.innerHTML = aboutPageHTML;
+appDiv.innerHTML = mainPageHTML;
+// appDiv.innerHTML = menuPageHTML;

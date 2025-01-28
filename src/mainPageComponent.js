@@ -7,13 +7,13 @@ export const createMainPageComponent = () => {
     };
   
     return `
-      <div class="block md:flex p-6">
-        <div class="block md:flex md:p-10 flex-col justify-around">
-          <h3>${componentData.title}</h3>
-          <p>${componentData.description}</p>
-          <button class="px-1 py-2 rounded-sm max-w-fit bg-amber-400">${componentData.buttonText}</button>
+      <div class="block md:flex p-6 justify-evenly">
+        <div class="flex flex-col items-center justify-center gap-4 mb-5 lg:max-w-1/2">
+          <h3 class="text-2xl md:text-3xl font-bold text-center">${componentData.title}</h3>
+          <p class="text-xs md:text-2xl">${componentData.description}</p>
+          <button class="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-50">${componentData.buttonText}</button>
         </div>
-        <img src="${componentData.imgUrl}" alt="restaurant image" class="md:w-90">
+        <img src="${componentData.imgUrl}" alt="restaurant image" class="md:w-90 rounded-lg">
       </div>
     `;
   };
