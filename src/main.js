@@ -2,7 +2,7 @@ import { createMainPageComponent } from './mainPageComponent.js';
 import { menuPageComponent } from './menuPageComponent.js';
 import { bookingPageComponent } from './bookingPageComponent.js';
 import { aboutPageComponent } from './aboutPageComponent.js';
-
+import './style.css'
 const appDiv = document.querySelector("#app");
 const linksContainer = document.querySelector("#links-container")
 

@@ -1,39 +1,78 @@
 export const menuPageComponent = () => {
     
+    // const dishes = [
+    //     {
+    //         name: "Golden egg curry",
+    //         imgUrl: "/sauced/dish-1.jpg",
+    //         description: "soft-boiled eggs in a rich and creamy spiced curry sauce, garnished with fresh herbs.",
+    //         price: 12.99
+    //     },
+    //     {
+    //         name: "Sticky sesame noodles",
+    //         imgUrl: "/sauced/dish-2.jpg",
+    //         description: "savory noodles topped with crispy sesame-glazed meatballs and scallions.",
+    //         price: 14.49
+    //     },
+    //     {
+    //         name: "Grilled fusion platter",
+    //         imgUrl: "/sauced/dish-3.jpg",
+    //         description: "grilled fish and chicken paired with turmeric rice and sautéed vegetables.",
+    //         price: 18.99
+    //     },
+    //     {
+    //         name: "Crispy pork bowl",
+    //         imgUrl: "/sauced/dish-4.jpg",
+    //         description: "crispy pork belly on rice with lettuce, caramelized onions, and chili garnish.",
+    //         price: 13.99
+    //     },
+    //     {
+    //         name: "Rainbow shrimp bowl",
+    //         imgUrl: "/sauced/dish-5.jpg",
+    //         description: "a vibrant mix of shrimp, fresh veggies, and sesame seeds over greens.",
+    //         price: 15.49
+    //     },
+    //     {
+    //         name: "Salmon poke bowl",
+    //         imgUrl: "/sauced/dish-6.jpg",
+    //         description: "diced salmon, avocado, edamame, cucumber, and sesame seeds on a bed of rice.",
+    //         price: 16.99
+    //     }
+    // ];
+
     const dishes = [
         {
             name: "Golden egg curry",
-            imgUrl: "/dish-1.jpg",
+            imgUrl: "assets/dish-1.jpg",
             description: "soft-boiled eggs in a rich and creamy spiced curry sauce, garnished with fresh herbs.",
             price: 12.99
         },
         {
             name: "Sticky sesame noodles",
-            imgUrl: "/dish-2.jpg",
+            imgUrl: "assets/dish-2.jpg",
             description: "savory noodles topped with crispy sesame-glazed meatballs and scallions.",
             price: 14.49
         },
         {
             name: "Grilled fusion platter",
-            imgUrl: "/dish-3.jpg",
+            imgUrl: "assets/dish-3.jpg",
             description: "grilled fish and chicken paired with turmeric rice and sautéed vegetables.",
             price: 18.99
         },
         {
             name: "Crispy pork bowl",
-            imgUrl: "/dish-4.jpg",
+            imgUrl: "assets/dish-4.jpg",
             description: "crispy pork belly on rice with lettuce, caramelized onions, and chili garnish.",
             price: 13.99
         },
         {
             name: "Rainbow shrimp bowl",
-            imgUrl: "/dish-5.jpg",
+            imgUrl: "assets/dish-5.jpg",
             description: "a vibrant mix of shrimp, fresh veggies, and sesame seeds over greens.",
             price: 15.49
         },
         {
             name: "Salmon poke bowl",
-            imgUrl: "/dish-6.jpg",
+            imgUrl: "assets/dish-6.jpg",
             description: "diced salmon, avocado, edamame, cucumber, and sesame seeds on a bed of rice.",
             price: 16.99
         }

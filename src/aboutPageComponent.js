@@ -1,6 +1,6 @@
 export const aboutPageComponent = () => {
     const componentData = {
-        imgUrl: "/cook-crew.jpg"
+        imgUrl: "assets/cook-crew.jpg"
     };
     
     return `
